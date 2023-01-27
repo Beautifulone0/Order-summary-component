@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:  hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  font-size: 1.6em;
+  font-family: 'Red Hat Display';
+  font-weight: 500;
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 20rem;
+  height: 32rem;
+  /*padding: 1rem;*/
+  margin: auto;
+  border-radius: 1rem;
+  margin-top: 8rem;
+}
+.image1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image1 img{
+  width: 20rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.text h2{
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  color: hsl(223, 47%, 23%);
+  margin: 1rem;
+}
+.text p{
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: 500;
+  color: hsl(223, 47%, 23%);
+  width: 17rem;
+  margin: 1rem;
+}
+.container2{
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+.container2 img{
+  width: 2rem;
+  height: 2rem;
+}
+.container2 p{
+  font-size: 0.6em;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+span{
+  color: hsl(223, 47%, 23%);
+  font-weight: 200;
+}
+.container2 a{
+  font-size: 0.5em;
+  color: hsl(223, 47%, 23%);
+}
+.container2 a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3 button{
+  background-color: hsl(245, 75%, 52%);
+  border: 1rem solid hsl(245, 75%, 52%);
+  border-radius: 0.8rem;
+  margin-top: 0.1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: hsl(225, 100%, 98%);
+  text-align: center;
+  box-shadow: 0.2rem 0.5rem 0.2rem 0.1rem hsl(223, 47%, 23%, 0.15);
+}
+.container3 button:hover{
+  background-color: hsl(245, 75%, 52%);
+  opacity: 0.6;
+  cursor: pointer;
+}
+.text2 p{
+  text-align: center;
+  font-size: 0.8em;
+  color: hsl(223, 47%, 23%);
+  margin: 1rem;
+}
+footer{
+  text-align: center;
+  font-size: 0.5em;
+  color: hsl(245, 75%, 52%);
+}
+@media screen and (max-width: 375px){
+  body{
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  .container{
+    width: 18rem;
+    height: 31rem;
+  }
+  .image1 img{
+    width: 18rem;
+  }
+}
